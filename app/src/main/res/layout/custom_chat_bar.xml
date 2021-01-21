@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/custom_profile_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/profile_photo"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:cropToPadding="true"
+        android:layout_marginRight="8dp"/>
+
+
+    <TextView
+        android:layout_marginTop="3dp"
+        android:id="@+id/custom_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="display user name"
+        android:layout_toRightOf="@+id/custom_profile_image"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/custom_user_last_seen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="last seen "
+        android:layout_toRightOf="@+id/custom_profile_image"
+        android:textSize="14sp"
+        android:layout_below="@+id/custom_profile_name"
+        android:textColor="#423F3F"/>
+
+
+
+
+
+</RelativeLayout>

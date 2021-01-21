@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "915410591655",
+    "project_id": "i-chatting-eae3a",
+    "storage_bucket": "i-chatting-eae3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915410591655:android:8029fa696ef14c3f53a082",
+        "android_client_info": {
+          "package_name": "com.example.ichatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915410591655-jqarcu32eaf117e7g8djf2orf9ldlmni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ichatting",
+            "certificate_hash": "c6cf3c48d7cdb885ae4d54d92d44413266f1447f"
+          }
+        },
+        {
+          "client_id": "915410591655-7fatrs3enhn7t36m91h66ah1dk5sineq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCtXPxZB7xHnlYWHOLhop39vygcsGA5RM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915410591655-7fatrs3enhn7t36m91h66ah1dk5sineq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
